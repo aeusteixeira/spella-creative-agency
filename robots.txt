@@ -1,8 +1,0 @@
-# Mas tudo bem, o dia vai raiar pra gente se inventar de novo.
-# Cicero - Tempo de Pipa
-
-User-agent: Googlebot
-Allow: /
-
-User-agent: *
-Allow: /
