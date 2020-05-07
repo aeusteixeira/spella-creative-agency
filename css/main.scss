@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
+/***************************************************
+# Geral
+****************************************************/
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #212529;
+}
+
+.title{
+  font-family: 'Anton', sans-serif;
+}
+
+.personal-title{
+  font-family: 'Raleway', sans-serif;
+}
+
+/***************************************************
+# Header
+****************************************************/
+
+header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../img/banners/banner1.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+
+#services .icon-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  background: #f6f6f6;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+
+#services .icon-box i {
+  font-size: 32px;
+  padding-right: 10px;
+  line-height: 1;
+}
+
+#services .icon-box .card-icon i{
+  font-size: 40px;
+  padding-bottom: 15px;
+  line-height: 1;
+}
+
+#services .icon-box h3 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+}
+
+#services .icon-box h3 a {
+  color: #222222;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+
+#services .icon-box h3 a:hover {
+  color: #278acc;
+}
+
+#services .icon-box:hover {
+  background: #cbebe2;
+}
+
+.py-2-5 {
+  padding-top: 0.8rem !important;
+}
+
+
+/***************************************************
+# Bootstrap Colors
+****************************************************/
+
+$color1: #F6C9BD;
+$color2: #ef8b70;
+$color3: #009970;
+$color4: #232222;
+$color5: #462200;
+
+$theme-colors: ('color1': $color1,
+  'color2': $color2,
+  'color3': $color3,
+  'color4': $color4,
+  'color5': $color5,
+);
+
+
+$enable-responsive-font-sizes: true !important;
+$enable-rounded: false;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
